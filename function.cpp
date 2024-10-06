@@ -11,7 +11,7 @@ cout << "3. Kertas" << endl;
 int main (){
   int pemain1, pemain2, pilihan_pemain1, pilihan_pemain2;
   cout << "========== Permainan Dimulai ==========" << endl << endl;
-  cout << "Pemain 1, tentukan pilihan anda!" << endl;
+  cout << "Pemain 1, tentukan piilihan anda!" << endl;
   Menu();
   cout << "Masukan pilihan : ";
   cin >> pilihan_pemain1;
