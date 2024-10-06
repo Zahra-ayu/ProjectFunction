@@ -25,6 +25,34 @@ int main (){
     default: cout << "plihan tidak tersedia" << endl;
       return 0;
   } cout << endl;
-      
+
+   cout << "Pemain 2, tentukan pilihan anda! " << endl;
+        Menu();
+        cout << "Masukkan pilihan : ";
+        cin >> pilihan_pemain2;
+        switch(pilihan_pemain2){
+            case 1: pilihan_pemain2 = 1;
+            break;
+            case 2: pilihan_pemain2 = 2;
+            break;
+            case 3: pilihan_pemain2 = 3;
+            break;
+            default: cout << "pilihan tidak tersedia" << endl;
+            return 0;
+        } cout << endl;
+        
+        cout << "Pemain 1" << "        " << "Pemain 2"<<endl;
+        
+         switch (pilihan_pemain1) {
+            case 1: cout << "Gunting    VS ";
+            break;
+            case 2: cout << "Batu      VS ";
+            break;
+            case 3: cout << "Kertas       VS ";
+            break;
+            default: cout << "pilihan tidak tersedia" << endl;
+            break;
+           }
+
 return 0;
 }
