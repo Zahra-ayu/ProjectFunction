@@ -43,7 +43,7 @@ int main (){
         
    cout << "Pemain 1" << "          " << "Pemain 2"<<endl;
         
-   switch (pilihan_pemain1) {
+   switch (pilihan_pemain1) { 
      case 1: cout << "Gunting     VS ";
        break;
      case 2: cout << "Batu        VS ";
