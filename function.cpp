@@ -31,7 +31,7 @@ int main (){
    cout << "Masukkan pilihan : ";
    cin >> pilihan_pemain2;
    switch(pilihan_pemain2){
-     case 1: pilihan_pemain2 = 1;
+     case 1: pilihan_pilihan2 = 1;
        break;
      case 2: pilihan_pemain2 = 2;
        break;
