@@ -28,7 +28,7 @@ int main (){
 
    cout << "Pemain 2, tentukan pilihan anda! " << endl;
    Menu();
-   cout << "Masukkan pilihan :";
+   cout << "Masukkan pilihan : ";
    cin >> pilihan_pemain2;
    switch(pilihan_pemain2){
      case 1: pilihan_pemain2 = 1;
