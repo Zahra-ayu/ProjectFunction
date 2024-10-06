@@ -11,7 +11,7 @@ cout << "3. Kertas" << endl;
 int main (){
   int pemain1, pemain2, pilihan_pemain1, pilihan_pemain2;
   cout << "========== Permainan Dimulai ==========" << endl << endl;
-  cout << "Pemain 1, tentukan piilihan anda!" << endl;
+  cout << "Pemain 1, tentukan pilihan anda!" << endl;
   Menu();
   cout << "Masukan pilihan : ";
   cin >> pilihan_pemain1;
@@ -22,7 +22,7 @@ int main (){
       break;
     case 3 : pilihan_pemain1 = 3;
       break;
-    default: cout << "plihan tidak tersedia" << endl;
+    default: cout << "Plihan tidak tersedia" << endl;
       return 0;
   } cout << endl;
 
@@ -37,7 +37,7 @@ int main (){
        break;
      case 3: pilihan_pemain2 = 3;
        break;
-     default: cout << "pilihan tidak tersedia" << endl;
+     default: cout << "Pilihan tidak tersedia" << endl;
        return 0;
    } cout << endl;
         
@@ -50,7 +50,7 @@ int main (){
        break;
      case 3: cout << "Kertas      VS ";
        break;
-     default: cout << "pilihan tidak tersedia" << endl;
+     default: cout << "Pilihan tidak tersedia" << endl;
        break;
    }
 
